@@ -7,9 +7,22 @@ masthead:
 pages:
   /workshop/:
     sections:
-      contact: Kontakty
+      idea: Příběh
+      roles: Postavy
       tickets: Registrace
+      theme: Téma
+      mentors: Mentoři
+      contact: Kontakty
   /presentations/:
+    sections:
+      about: O akci
+      program: Program
+      presentations: Přednášející
+      sponsors: Partneři
+      where: Kde
+      afterparty: Afterparty
+      contact: Kontakty
+  /:
     sections:
       about: O akci
       program: Program

@@ -13,7 +13,7 @@
       {%endif%}
       <div class="dropdown">
         <a href="#" data-toggle="dropdown" class="dropdown-toggle logo-gishack">
-          <img src="./../../assets/img/logo_gishackathon_sm.png">
+          <img src= "{{"/assets/img/logo_gishackathon_sm.png"| prepend: site.baseurl }}">
           <b class="caret"></b>
         </a>
         <ul class="dropdown-menu">
@@ -25,14 +25,14 @@
               {% assign class = 'is--active' %}
             {% endif %}
             <li>
-              <a href="{{ link.url }}" class="masthead__menu-item {% if counter > 1 %}is--hidden{% endif %} {{ class }}">
+              <a href="{{ link.url | prepend: site.baseurl }}" class="masthead__menu-item {% if counter > 1 %}is--hidden{% endif %} {{ class }}">
                 {{ link.title }}
               </a>
             </li>
           {% endfor %}
           <li role="separator" class="divider"></li>
           <li>
-            <a href="{{site.baseurl}}">Hlavní stránka</a>
+            <a href="{{"/"| prepend: site.baseurl }}">Hlavní stránka</a>
           </li>
         </ul>
       </div>

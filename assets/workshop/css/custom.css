@@ -104,6 +104,11 @@ p.story{
   margin-bottom: 100px;
 }
 
+#theme{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
 
 footer{
   background: #000;
@@ -140,7 +145,7 @@ footer a:hover{
 }
 
 .registration {
-    height: 450px;
+    height: 470px;
 }
 
 .idea-text p{
