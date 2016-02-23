@@ -1,0 +1,52 @@
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- <nav id="nav-primary" class="masthead__menu-wrapper"> -->
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      {% if site.data.navigation.pages contains page.url%}
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      {%endif%}
+      <div class="dropdown">
+        <a href="#" data-toggle="dropdown" class="dropdown-toggle logo-gishack">
+          <img src="./../../assets/img/logo_gishackathon_sm.png">
+          <b class="caret"></b>
+        </a>
+        <ul class="dropdown-menu">
+          {% assign counter = 0 %}
+          {% for link in site.data.navigation.masthead %}
+            {% assign counter = counter | plus:1 %}
+            {% assign class = nil %}
+            {% if page.url contains link.url %}
+              {% assign class = 'is--active' %}
+            {% endif %}
+            <li>
+              <a href="{{ link.url }}" class="masthead__menu-item {% if counter > 1 %}is--hidden{% endif %} {{ class }}">
+                {{ link.title }}
+              </a>
+            </li>
+          {% endfor %}
+          <li role="separator" class="divider"></li>
+          <li>
+            <a href="{{site.baseurl}}">Hlavní stránka</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    {% if site.data.navigation.pages contains page.url%}
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          {% for section in site.data.navigation.pages[page.url].sections %}
+            <li class="">
+                <a class="page-scroll" href="#{{section[0]}}">{{section[1]}}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
+  </div>
+</nav>

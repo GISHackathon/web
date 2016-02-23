@@ -1,0 +1,20 @@
+masthead:
+  - title: "Workshop"
+    url: /workshop/
+  - title: "Presentations"
+    url: /presentations/
+
+pages:
+  /workshop/:
+    sections:
+      contact: Kontakty
+      tickets: Registrace
+  /presentations/:
+    sections:
+      about: O akci
+      program: Program
+      presentations: Přednášející
+      sponsors: Partneři
+      where: Kde
+      afterparty: Afterparty
+      contact: Kontakty
