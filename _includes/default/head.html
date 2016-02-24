@@ -7,6 +7,9 @@
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
 
+  <!-- Plugin CSS -->
+  <link rel="stylesheet" href="{{ "/assets/presentations/css/animate.min.css" | prepend: site.baseurl }}">
+
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="{{ "/assets/bootstrap/css/bootstrap.min.css" | prepend: site.baseurl }}">
 
@@ -16,11 +19,7 @@
 
   <link rel="stylesheet" href="{{ "/assets/font-awesome/css/font-awesome.min.css" | prepend: site.baseurl }}">
 
-  <!-- Plugin CSS -->
-  <link rel="stylesheet" href="{{ "/assets/presentations/css/animate.min.css" | prepend: site.baseurl }}">
-
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="{{ "/assets/presentations/css/creative.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/assets/css/creative.css" | prepend: site.baseurl }}">
 
   <link rel="stylesheet" href="{{ "/assets/css/navbar.css" | prepend: site.baseurl }}">
 

@@ -126,3 +126,8 @@ a.logo-gishack {
 .dropdown a.dropdown-toggle.logo-gishack:focus{
   text-decoration: none;
 }
+
+.dropdown-menu>li>a.is--active{
+  color: #78BE14;
+  font-weight: bolder;
+}

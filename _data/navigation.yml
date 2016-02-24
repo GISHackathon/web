@@ -3,8 +3,8 @@ masthead:
     url: /workshop/
   - title: "Presentations"
     url: /presentations/
-  - title: "Workshop 2015"
-    url: /2015workshop/
+  - title: "Starší akce"
+    url: /older/
 
 pages:
   /workshop/:

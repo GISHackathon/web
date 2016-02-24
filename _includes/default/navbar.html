@@ -17,6 +17,13 @@
           <b class="caret"></b>
         </a>
         <ul class="dropdown-menu">
+          <li>
+            {% if page.url == "/" %}
+              {% assign activeMainClass = 'is--active' %}
+            {% endif %}
+            <a href="{{"/"| prepend: site.baseurl }}" class="{{ activeMainClass }} {{page.url}}">Hlavní stránka</a>
+          </li>
+          <li role="separator" class="divider"></li>
           {% assign counter = 0 %}
           {% for link in site.data.navigation.masthead %}
             {% assign counter = counter | plus:1 %}
@@ -30,10 +37,6 @@
               </a>
             </li>
           {% endfor %}
-          <li role="separator" class="divider"></li>
-          <li>
-            <a href="{{"/"| prepend: site.baseurl }}">Hlavní stránka</a>
-          </li>
         </ul>
       </div>
     </div>
