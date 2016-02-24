@@ -1,0 +1,12 @@
+<script src="{{ "/assets/js/ie10-viewport-bug-workaround.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/2015workshop/js/custom.js" | prepend: site.baseurl }}"></script>
+
+<script type="text/javascript">//prevent scroll up on anchor click
+   /* <![CDATA[ */
+   ( function( $ ) {
+      $( 'a[href="#"]' ).click( function(e) {
+         e.preventDefault();
+      } );
+   } )( jQuery );
+   /* ]]> */
+</script>
