@@ -24,6 +24,13 @@ pages:
       where: Kde
       afterparty: Afterparty
       contact: Kontakty
+  /2014presentations/:
+    sections:
+      main: Hackathon
+      register: Přihlášení
+      program: Program
+      partners: Partneři
+      location: Kdy a kde
   /:
     sections:
       about: O akci

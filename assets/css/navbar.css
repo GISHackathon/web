@@ -2,6 +2,15 @@ a.logo-gishack {
     padding: 5px;
 }
 
+
+.navbar-default img {
+    display: inline;
+  }
+
+.navbar-default a{
+    text-decoration: inherit;
+}
+
 .navbar-default {
     border-color: rgba(34,34,34,.05);
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
@@ -107,6 +116,10 @@ a.logo-gishack {
 
 .navbar-header .dropdown{
   float: left;
+}
+
+.logo-gishack img{
+  padding: 5px;
 }
 
 .dropdown a.dropdown-toggle.logo-gishack:hover,
