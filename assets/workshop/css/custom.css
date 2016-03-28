@@ -5,8 +5,15 @@ body{ margin:0px 0px; }
     src: url(../font/starjedi/Starjedi.ttf);
 }
 
+
+#partners{
+  padding-bottom: 40px;
+  background-color: rgba(19, 23, 27, 0.21);
+}
+
 #mentors{
-  margin-bottom: 40px;
+  padding-bottom: 40px;
+  background-color: hsla(42, 77%, 64%, 0.24);
 }
 
 #hero{

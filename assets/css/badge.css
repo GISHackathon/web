@@ -18,6 +18,11 @@
   text-align: center;
 }
 
+.gh-badge .gh-socials a:focus, .gh-badge .gh-socials a:hover {
+  text-decoration: none;
+}
+
+
 .gh-badge img{
   max-width: 60%;
   max-height: 90px;

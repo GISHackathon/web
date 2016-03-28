@@ -1,0 +1,16 @@
+<div class="col-lg-3 col-md-6 col-sm-12 gh-partnerbadge">
+  {% assign partner = site.data.partners[include.partner] %}
+  {% capture photoUrl %}{{"/assets/partners/"| append: partner.photo }}{% endcapture %}
+  <div class="service-box">
+    <a class="" href="{{ partner.url }}">
+      <img src="{{ "{{photoUrl}}" | prepend: site.baseurl }}" alt="">
+    </a>
+    <div>
+      <a class="" href="{{ partner.url }}">
+        <h3 class="name">
+          {{partner.name}}
+        </h3>
+      </a>
+    </div>
+  </div>
+</div>
