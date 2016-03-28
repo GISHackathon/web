@@ -1,0 +1,16 @@
+{
+  "name":"Tonda Blaník",
+  "photo": "blanikTonda.jpeg",
+  "email":"franta@kolacek.eu",
+  "phone":"0609112567",
+  "linkedin": "",
+  "github": "",
+  "facebook": "https://cs-cz.facebook.com/people/Ton%C3%ADk-Blan%C3%ADk/100009232883013",
+  "twitter": "https://twitter.com/tondablanik?lang=cs",
+  "skills": ["javascript", "angular", "qgis"],
+  "description": "Tonda je celebrita mezi českou GIS scénou. Založil <a href='http://www.esri.com/'>ESRI</a> a pracuje v googlu.",
+  "employer": {
+    "title": "Stream",
+    "url": "https://www.stream.cz/porady/blanik"
+  }
+}

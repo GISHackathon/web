@@ -1,0 +1,29 @@
+{
+  "name":"Vojtěch Dubrovský",
+  "photo": "dubrovskyvojtech.jpg",
+  "email":"vdubr@icloud.com",
+  "phone":"",
+  "linkedin": "https://cz.linkedin.com/in/vojtechdubrovsky",
+  "github": "https://github.com/vdubr",
+  "facebook": "",
+  "twitter": "https://twitter.com/vojdub",
+  "url": "",
+  "skills": [
+    {
+      "name":"OpenLayers",
+      "url": "http://openlayers.org/"
+      },
+      {
+        "name":"QGIS",
+        "url": "http://qgis.org"
+      },
+      {
+        "name":"FrontEnd"
+      }
+    ],
+  "description": "",
+  "employer": {
+    "title": "",
+    "url": ""
+  }
+}

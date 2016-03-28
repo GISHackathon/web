@@ -1,0 +1,29 @@
+{
+  "name":"Martin Tesař",
+  "photo": "tesarMartin.JPG",
+  "email":"osmmtb@gmail.com",
+  "phone":"",
+  "linkedin": "http://cz.linkedin.com/in/martintesar",
+  "github": "https://github.com/mattesCZ",
+  "facebook": "",
+  "twitter": "https://twitter.com/mattes_cz",
+  "url": "http://mtbmap.cz/",
+  "skills": [
+    {
+      "name":"Leaflet",
+      "url": "http://leafletjs.com/"
+      },
+      {
+        "name":"Angular",
+        "url": "https://angularjs.org/"
+      },
+      {
+        "name":"FrontEnd"
+      }
+    ],
+  "description": "Pracuji jako frontend developer ve společnosti <a href='http://www.clevermaps.cz/'>clevermaps</a>. Ve volném čase se věnuji projektu <a href='mtbmap.cz'>mtbmap.cz</a>.",
+  "employer": {
+    "title": "clevermaps",
+    "url": "http://www.clevermaps.cz"
+  }
+}

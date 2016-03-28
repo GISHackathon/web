@@ -1,0 +1,50 @@
+<div class="col-lg-3 col-md-6 col-sm-12 gh-badge">
+  {% assign contact = site.data.contacts[include.user] %}
+  {% capture photoUrl %}{{"/assets/contacts/img/"| append: contact.photo }}{% endcapture %}
+  <div class="service-box">
+      <img src="{{ "{{photoUrl}}" | prepend: site.baseurl }}" alt="">
+    <div>
+      <h3 class="name">
+        {{contact.name}}
+      </h3>
+      <span class="gh-skills">
+        {% for skill in contact.skills %}
+          {% if skill.url %}
+            <a class="" title="{{ skill.name }}" href="{{ skill.url }}">
+              {{ skill.name }}
+            </a>
+          {% else %}
+             <p>{{skill.name}}</p>
+          {% endif %}
+        {% endfor %}
+      </span>
+      <div class = "gh-socials">
+        {% if contact.twitter and contact.twitter != "" %}
+          <a href="{{contact.twitter}}">
+            <i class="fa fa-twitter fa-1"></i>
+          </a>
+        {% endif %}
+        {% if contact.facebook and contact.facebook != ""%}
+          <a href="{{contact.facebook}}">
+            <i class="fa fa-facebook fa-1"></i>
+          </a>
+        {% endif %}
+        {% if contact.github and contact.github != ""%}
+          <a href="{{contact.github}}">
+            <i class="fa fa-github fa-1"></i>
+          </a>
+        {% endif %}
+        {% if contact.linkedin and contact.linkedin != ""%}
+          <a href="{{contact.linkedin}}">
+            <i class="fa fa-linkedin fa-1"></i>
+          </a>
+        {% endif %}
+        {% if contact.url and contact.url != ""%}
+          <a href="{{contact.url}}">
+            <i class="fa fa-link fa-1"></i>
+          </a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
