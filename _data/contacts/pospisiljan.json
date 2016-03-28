@@ -1,0 +1,22 @@
+{
+  "name":"Jan Pospíšil",
+  "photo": "pospisiljan.jpg",
+  "email":"janpos@microsoft.com",
+  "phone":"",
+  "linkedin": "https://cz.linkedin.com/in/vojtechdubrovsky",
+  "github": "",
+  "facebook": "",
+  "twitter": "https://twitter.com/pospanet",
+  "url": "",
+  "skills": [
+      {
+        "name":"Azure",
+        "url": "https://azure.microsoft.com/cs-cz/"
+      }
+    ],
+  "description": "",
+  "employer": {
+    "title": "",
+    "url": ""
+  }
+}

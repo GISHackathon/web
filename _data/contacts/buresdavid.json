@@ -1,0 +1,22 @@
+{
+  "name":"David Bureš",
+  "photo": "buresdavid.jpg",
+  "email":"dabures@microsoft.com",
+  "phone":"",
+  "linkedin": "https://www.linkedin.com/in/davidbures",
+  "github": "",
+  "facebook": "",
+  "twitter": "https://twitter.com/bures",
+  "url": "",
+  "skills": [
+      {
+        "name":"Azure",
+        "url": "https://azure.microsoft.com/cs-cz/"
+      }
+    ],
+  "description": "",
+  "employer": {
+    "title": "",
+    "url": ""
+  }
+}
