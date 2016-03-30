@@ -13,6 +13,7 @@ pages:
       roles: Postavy
       tickets: Registrace
       theme: Téma
+      program: Program
       mentors: Mentoři
       partners: Partneři
       contact: Kontakty
