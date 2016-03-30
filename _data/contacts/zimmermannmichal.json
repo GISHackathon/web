@@ -1,0 +1,25 @@
+{
+  "name":"Michal Zimmermann",
+  "photo": "zimmermannmichal.JPG",
+  "email":"zimmicz@gmail.com",
+  "phone":"",
+  "linkedin": "https://cz.linkedin.com/in/zimmermannmichal",
+  "github": "https://github.com/zimmicz",
+  "facebook": "",
+  "twitter": "https://twitter.com/zimmicz",
+  "url": "https://www.zimmi.cz/",
+  "skills": [
+    {
+      "name":"PostGis",
+      "url": "http://postgis.net/"
+      },
+      {
+        "name":"Server side"
+      }
+    ],
+  "description": "",
+  "employer": {
+    "title": "clevermaps",
+    "url": "http://www.clevermaps.cz"
+  }
+}
