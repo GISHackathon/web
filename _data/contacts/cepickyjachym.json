@@ -1,0 +1,28 @@
+{
+  "name":"Jáchym Čepický",
+  "photo": "cepickyjachym.jpeg",
+  "email":"jachym.cepicky@gmail.com",
+  "phone":"",
+  "linkedin": "https://www.linkedin.com/in/jachymcepicky",
+  "github": "https://github.com/jachym",
+  "facebook": "",
+  "twitter": "https://twitter.com/jachymc",
+  "url": "http://www.gismentors.cz/mentors/cepicky/",
+  "skills": [
+      {
+        "name":"desktop"
+      },
+      {
+        "name":"server"
+      },
+      {
+        "name":"GeoPython",
+        "url": "http://www.gismentors.cz/skoleni/geopython/"
+      }
+    ],
+  "description": "",
+  "employer": {
+    "title": "",
+    "url": ""
+  }
+}
